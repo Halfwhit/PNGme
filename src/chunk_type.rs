@@ -16,7 +16,7 @@ impl Display for ChunkTypeError {
 impl std::error::Error for ChunkTypeError {}
 
 #[derive(Debug, PartialEq, Eq)]
-struct ChunkType {
+pub struct ChunkType {
     bytes: [u8; 4],
 }
 #[allow(dead_code)]
