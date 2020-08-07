@@ -1,5 +1,5 @@
 [package]
-name = "PNGme"
+name = "pngme"
 version = "0.1.0"
 authors = ["Halfwhit <Halfwhit@gmail.com>"]
 edition = "2018"
