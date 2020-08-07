@@ -1,7 +1,7 @@
 use std::{convert::TryFrom, fmt::Display, str::FromStr};
 
 #[derive(Debug)]
-enum ChunkTypeError {
+pub enum ChunkTypeError {
     InvalidByte(u8),
     InvalidLength,
 }
