@@ -19,6 +19,7 @@ impl std::error::Error for ChunkTypeError {}
 struct ChunkType {
     bytes: [u8; 4],
 }
+#[allow(dead_code)]
 impl ChunkType {
     fn bytes(&self) -> [u8; 4] {
         self.bytes
